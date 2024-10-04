@@ -21,7 +21,11 @@ const Approach = () => {
               WARRIORS WITHOUT CAUSE
             </h1>
             <div className="img-container w-full h-[60vh] lg:w-1/2 lg:ml-20">
-              <img className="w-full h-full object-cover" src="https://static.wixstatic.com/media/933dd2_0c49800d81d54a7798aaa7dc6102c49b~mv2.png/v1/fill/w_560,h_746,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/IMG_9394_heic.png" alt="" />
+              <img
+                className="w-full h-full object-cover"
+                src="https://static.wixstatic.com/media/933dd2_0c49800d81d54a7798aaa7dc6102c49b~mv2.png/v1/fill/w_560,h_746,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/IMG_9394_heic.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="missionInfo w-full h-fit text-black pt-5 lg:w-1/2">
@@ -146,7 +150,10 @@ const Approach = () => {
                     </li>
                   </ol>
                   <h2 className="text-2xl font-bold mt-5">
-                  These core values guide us in our pursuit of a more equitable, empowered, and compassionate world, where sustainable change is driven by the principles of collaboration, quality, innovation, and transparency.
+                    These core values guide us in our pursuit of a more
+                    equitable, empowered, and compassionate world, where
+                    sustainable change is driven by the principles of
+                    collaboration, quality, innovation, and transparency.
                   </h2>
                 </div>
               )}
@@ -160,25 +167,81 @@ const Approach = () => {
           </h1>
           <div className="card-container w-full h-fit grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center mt-10 lg:px-40">
             <div className="motive-cards text-center bg-[#F6EBE4] w-full h-[40vh]">
-              <img className="w-full h-full " src="https://static.wixstatic.com/media/933dd2_db20a95f6c9a480799aa05b1597db60f~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/1%20(1).png" alt="" />
+              <img
+                className="w-full h-full "
+                src="https://static.wixstatic.com/media/933dd2_db20a95f6c9a480799aa05b1597db60f~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/1%20(1).png"
+                alt=""
+              />
             </div>
             <div className="motive-cards text-center bg-[#F6EBE4] w-full h-[40vh]">
-              <img className="w-full h-full" src="https://static.wixstatic.com/media/933dd2_31320c86990645c4a99f49a94c96a84d~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/2%20(1).png" alt="" />
+              <img
+                className="w-full h-full"
+                src="https://static.wixstatic.com/media/933dd2_31320c86990645c4a99f49a94c96a84d~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/2%20(1).png"
+                alt=""
+              />
             </div>
             <div className="motive-cards text-center bg-[#F6EBE4] w-full h-[40vh]">
-              <img className="w-full h-full" src="https://static.wixstatic.com/media/933dd2_1e84a940236c4edd9a29fc5250615073~mv2.png/v1/fill/w_594,h_594,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3%20(1).png" alt="" />
+              <img
+                className="w-full h-full"
+                src="https://static.wixstatic.com/media/933dd2_1e84a940236c4edd9a29fc5250615073~mv2.png/v1/fill/w_594,h_594,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3%20(1).png"
+                alt=""
+              />
             </div>
             <div className="motive-cards text-center bg-[#F6EBE4] w-full h-[40vh]">
-              <img className="w-full h-full" src="https://static.wixstatic.com/media/933dd2_c9c40750f485435981b55429f71a221d~mv2.png/v1/fill/w_594,h_594,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4.png" alt="" />
+              <img
+                className="w-full h-full"
+                src="https://static.wixstatic.com/media/933dd2_c9c40750f485435981b55429f71a221d~mv2.png/v1/fill/w_594,h_594,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4.png"
+                alt=""
+              />
             </div>
             <div className="motive-cards text-center bg-[#F6EBE4] w-full h-[40vh]">
-              <img className="w-full h-full" src="https://static.wixstatic.com/media/933dd2_114a658032fa441d814d945590c3c3cd~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/5.png" alt="" />
+              <img
+                className="w-full h-full"
+                src="https://static.wixstatic.com/media/933dd2_114a658032fa441d814d945590c3c3cd~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/5.png"
+                alt=""
+              />
             </div>
             <div className="motive-cards text-center bg-[#F6EBE4] w-full h-[40vh]">
-              <img className="w-full h-full" src="https://static.wixstatic.com/media/933dd2_4e1bffc2cb5746f7b706d95bd1514174~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/8.png" alt="" />
+              <img
+                className="w-full h-full"
+                src="https://static.wixstatic.com/media/933dd2_4e1bffc2cb5746f7b706d95bd1514174~mv2.png/v1/fill/w_315,h_315,al_c,lg_1,q_85,enc_auto/8.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
+        <div className="wwc-buzz w-full h-fit bg-[#3F4359] p-5 lg:p-10">
+          <h1 className="text-5xl font-bold text-white">WWC Buzz</h1>
+          <div className="flex flex-col lg:flex-row">
+            <div className="buzz-img-container w-[80%] h-[45vh] m-auto mt-10 lg:w-[30%] lg:h-[65vh]">
+              <img
+                className="w-full h-full"
+                src="https://static.wixstatic.com/media/933dd2_83fde27a507e4333a5b2f878cf728803~mv2.png/v1/fill/w_460,h_666,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WWC%20Buzz%20-%2055.png"
+                alt=""
+              />
+            </div>
+            <p className="text-white text-2xl font-light mt-10 lg:w-1/2">
+              Dear Readers, As we launch "The WWC Buzz," the founders of
+              Warriorswithoutcause are overcome with gratitude and delight. We
+              are finally here with our very own newsletter issue after a
+              protracted journey of commitment, adversity, and passion. With the
+              express intention of empowering people with love, instilling the
+              SEWA practice, and helping the community, we founded this NGO. The
+              WWC Buzz is more than just another newsletter; it's a way for us
+              to keep our goal to give you meaningful explanations of
+              innovation, teamwork, and societal sustainability. We intend to
+              build a network of like-minded people who support our vision of a
+              better world through this newsletter. We are eager to share with
+              you our upcoming projects and initiatives, which include
+              partnerships with other NGOs and sustainable development
+              initiatives. We at WWC, believe that by working together, we can
+              have a significant impact on society and improve the quality of
+              life for everyone which is why we work on sustainable development
+              goals.
+            </p>
+          </div>
+        </div>
+
         <div className="whatwedo w-full h-fit bg-[#D24C79] p- pt-10">
           <h1 className="text-3xl font-bold text-[#FFBA01] text-center">
             What We Do?
