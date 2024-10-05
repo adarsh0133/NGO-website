@@ -7,7 +7,7 @@ const Home = () => {
   const [activeTab, setActiveTab] = useState("aboutus");
   return (
     <>
-      <NavBar/>
+      <NavBar />
       <div className="homepage w-full h-fit text-white pt-20">
         <div className="homepage-content w-full h-full bg-zinc-900 p-10 flex flex-col items-center justify-center">
           <div className="homepage-content-text lg:pl-40">
@@ -52,30 +52,34 @@ const Home = () => {
                 <div>
                   <h2 className="text-2xl font-bold mt-5">About Us</h2>
                   <p>
-                    Warriors Without Cause is a PAN India youth-led registered
-                    NGO under Indian Trusts Act, 1882 aiming to spread
-                    sensitisation towards charity and helping others. The
-                    organization’s motto being "we don't need a cause to make a
-                    change."
+                    Needy Binders is a nationwide non-profit dedicated to
+                    promoting a culture of charity and nourishing those in need.
+                    Our mission, "Let’s ensure that excess food finds its way to
+                    those who hunger," reflects our commitment to making a
+                    meaningful impact on the lives of the underserved.
                   </p>
                   <p>
-                    Our core philosophy centers around empowering individuals to
-                    become self-sufficient in the long term, and we achieve this
-                    by working directly in underserved slum communities. Our
-                    multifaceted approach includes a wide range of initiatives,
-                    such as organizing medical camps, conducting educational
-                    workshops, distributing essential items like sanitary pads,
-                    food, clothing, books, and stationery. We also provide
-                    access to electricity, establish sanitary facilities, offer
-                    employment opportunities, and extend support to improve the
-                    overall quality of life for those in need.
+                    At Needy Binders, we believe that no one should go hungry in
+                    a world filled with abundance. As a dedicated non-profit
+                    organization operating across India, we focus on collecting
+                    surplus food and redistributing it to those in need. Our
+                    mission is simple yet powerful: to bridge the gap between
+                    excess and need, ensuring that wholesome meals reach the
+                    plates of the less fortunate. Founded on the principle of
+                    compassion, Needy Binders is driven by a passionate team of
+                    volunteers and supporters who work tirelessly to combat food
+                    wastage and hunger. We partner with restaurants, catering
+                    services, and individuals to gather surplus food,
+                    transforming potential waste into nourishment for those who
+                    need it most.
                   </p>
                   <p>
-                    With a dedicated team of over 300 warriors spread across
-                    various cities in India, including Noida, Jammu, Chandigarh,
-                    Delhi, Dehradun, Hyderabad, Jaipur, and Mumbai, we are
-                    committed to creating positive change and leaving a lasting
-                    impact on the lives of the underprivileged.
+                    Through our initiatives, we aim not only to feed the hungry
+                    but also to raise awareness about food insecurity and
+                    inspire a culture of giving. Together, we can create a
+                    community where everyone has access to the basic necessity
+                    of food. Join us in our mission to make surplus food reach
+                    needy stomachs, and help us turn compassion into action.
                   </p>
                 </div>
               )}
@@ -83,11 +87,16 @@ const Home = () => {
                 <div>
                   <h2 className="text-2xl font-bold mt-5">Our Mission</h2>
                   <p>
-                    Bridging educational gaps, facilitating sustainable
-                    employment, and providing accessible healthcare services,
-                    ensuring holistic development and empowering individuals to
-                    break the cycle of poverty, leading to stronger, healthier,
-                    and self-sufficient communities.
+                    At Needy Binders, our mission is to connect event organizers
+                    and venues with those in need by facilitating the donation
+                    of leftover food. We strive to create a seamless network
+                    that transforms excess food from parties and gatherings into
+                    nourishing meals for hungry individuals. By fostering
+                    partnerships with restaurants, caterers, and event planners,
+                    we aim to reduce food waste while ensuring that every bite
+                    counts. Together, we are committed to making a meaningful
+                    impact in our communities and promoting a culture of
+                    compassion and sharing.
                   </p>
                 </div>
               )}
@@ -95,10 +104,14 @@ const Home = () => {
                 <div>
                   <h2 className="text-2xl font-bold mt-5">Our Vision</h2>
                   <p>
-                    Empowering underprivileged communities through education,
-                    employment, and healthcare, creating a future where every
-                    individual has the opportunity to thrive and live a healthy,
-                    fulfilling life.
+                    At Needy Binders,our vision is to create a world where every
+                    individual has access to nutritious food, eliminating hunger
+                    and food waste. We aspire to foster a compassionate society
+                    that values sharing and generosity, ensuring that surplus
+                    food is transformed into a lifeline for those in need.
+                    Together, we envision communities united in the fight
+                    against hunger, where no one goes to bed hungry and everyone
+                    can thrive.
                   </p>
                 </div>
               )}
@@ -288,7 +301,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
