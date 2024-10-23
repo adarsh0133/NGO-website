@@ -19,7 +19,7 @@ const About = () => {
               Learn About Us
             </h1>
             <h1 className="text-4xl font-bold text-[#FFBA01] mt-2 mb-3">
-              WARRIORS WITHOUT CAUSE
+              Needy Binders
             </h1>
             <div className="img-container w-full h-[60vh] lg:w-1/2 lg:ml-20 bg-red-300">
               <img className="size-full" src="/images/childimg.jpeg" alt="" />
@@ -111,7 +111,11 @@ const About = () => {
           <div className="team-members w-full h-fit grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:flex lg:justify-evenly">
             <div className="truste-info w-[40vh] h-fit flex flex-col items-start justify-center mt-5">
               <div className="img-container w-full h-[40vh]">
-                <img className="w-full h-full object-cover" src="/images/trustee-1.jpeg" alt="" />
+                <img
+                  className="w-full h-full object-cover"
+                  src="/images/trustee-1.jpeg"
+                  alt=""
+                />
               </div>
               <h1 className="truste-name text-zinc-800 font-medium text-2xl mt-2 text-center">
                 Sapna
@@ -125,7 +129,11 @@ const About = () => {
             </div>
             <div className="truste-info w-[40vh] h-fit flex flex-col items-start justify-center mt-5">
               <div className="img-container w-full h-[40vh]">
-                <img className="w-full h-full object-contain" src="/images/trustee-3.jpeg" alt="" />
+                <img
+                  className="w-full h-full object-contain"
+                  src="/images/trustee-3.jpeg"
+                  alt=""
+                />
               </div>
               <h1 className="truste-name text-zinc-800 font-medium text-2xl mt-2 text-center">
                 Lakshya Tanwar
@@ -139,7 +147,11 @@ const About = () => {
             </div>
             <div className="truste-info w-[40vh] h-fit flex flex-col items-start justify-center mt-5">
               <div className="img-container w-full h-[40vh]">
-                <img className="w-full h-full object-cover" src="/images/trustee-2.jpeg" alt="" />
+                <img
+                  className="w-full h-full object-cover"
+                  src="/images/trustee-2.jpeg"
+                  alt=""
+                />
               </div>
               <h1 className="truste-name text-zinc-800 font-medium text-2xl mt-2 text-center">
                 Aastha thakur
