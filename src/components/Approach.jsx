@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
 
 const Approach = () => {
   const [activeTab, setActiveTab] = useState("aboutus");
   return (
     <>
-      <NavBar />
       <div className="w-full h-fit">
         <div className="w-full h-[35vh] lg:h-[50vh] flex flex-col justify-center items-center text-[#FFBA01] border-b-2  bg-[url(https://images.unsplash.com/photo-1613399421095-41f5c68e9f8c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-[center_top_40%]">
           <h1 className="text-4xl font-bold">Our Approach</h1>
@@ -365,7 +362,6 @@ const Approach = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

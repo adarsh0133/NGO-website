@@ -1,13 +1,10 @@
 import { RiArrowDownSLine } from "@remixicon/react";
 import React, { useState } from "react";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState("aboutus");
   return (
     <>
-      <NavBar />
       <div className="homepage w-full h-fit text-white pt-20">
         <div className="homepage-content w-full h-full bg-zinc-900 p-10 flex flex-col items-center justify-center bg-[url(https://plus.unsplash.com/premium_photo-1682092585257-58d1c813d9b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center">
           <div className="homepage-content-text lg:pl-40">
@@ -314,7 +311,6 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

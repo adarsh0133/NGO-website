@@ -24,7 +24,7 @@ const Footer = () => {
             <p className="text-white ml-2">
               <span>Address:</span>
               <span>
-                <a href="https://maps.app.goo.gl">Click here</a>
+                <a href="#">Rewari, Haryana 123401</a>
               </span>
             </p>
           </li>
@@ -33,7 +33,7 @@ const Footer = () => {
             <p className="text-white ml-2">
               <span>Phone:</span>
               <span>
-                <a href="tel:+9112345678">123456789</a>
+                <a href="tel:+9112345678">7355881383</a>
               </span>
             </p>
           </li>
@@ -55,7 +55,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com">
+              <a href="https://www.instagram.com/needy.binders/">
                 <RiInstagramLine size={30} />
               </a>
             </li>
@@ -114,7 +114,7 @@ const Footer = () => {
           </button>
         </form>
         <p className="text-white text-xl mt-5">
-          We {"don't"} need a cause to make a change DL/2023/0351886- NGO DARPAN REG
+          We {"don't"} need a cause to make a change DL/XXX/XXXX- NGO Needy Binders REG
           NO
         </p>
       </div>
