@@ -114,13 +114,13 @@ const Footer = () => {
           </button>
         </form>
         <p className="text-white text-xl mt-5">
-          We don't need a cause to make a change DL/2023/0351886- NGO DARPAN REG
+          We {"don't"} need a cause to make a change DL/2023/0351886- NGO DARPAN REG
           NO
         </p>
       </div>
       </div>
 
-      <div className="copyright mt-10">
+      <div className="copyright mt-10 grid place-items-center">
         <p className="text-white text-xl">
           Copyright © 2024. All rights reserved.
         </p>

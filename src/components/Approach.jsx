@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import { RiStarFill, RiArrowRightUpFill } from "@remixicon/react";
 
 const Approach = () => {
   const [activeTab, setActiveTab] = useState("aboutus");
@@ -9,7 +8,7 @@ const Approach = () => {
     <>
       <NavBar />
       <div className="w-full h-fit">
-        <div className="w-full h-[35vh] lg:h-[50vh] flex flex-col justify-center items-center text-white border-b-2 bg-zinc-600">
+        <div className="w-full h-[35vh] lg:h-[50vh] flex flex-col justify-center items-center text-[#FFBA01] border-b-2  bg-[url(https://images.unsplash.com/photo-1613399421095-41f5c68e9f8c?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-[center_top_40%]">
           <h1 className="text-4xl font-bold">Our Approach</h1>
         </div>
         <div className="aboutus-wrapper w-full h-fit bg-zinc-50 p-5 lg:p-10 lg:flex lg:flex-row lg:justify-between">
@@ -18,7 +17,7 @@ const Approach = () => {
               Learn About Us
             </h1>
             <h1 className="text-4xl font-bold text-[#FFBA01] mt-2 mb-3">
-              WARRIORS WITHOUT CAUSE
+              Needy Binders NGO
             </h1>
             <div className="img-container w-full h-[60vh] lg:w-1/2 lg:ml-20">
               <img
@@ -161,9 +160,9 @@ const Approach = () => {
           </div>
         </div>
         <div className="our-motive bg-[#BE3565] w-full h-fit p-5 pb-16 lg:p-40">
-          <h1 className="text-white text-center text-3xl font-bold lg:text-4xl">
-            WARRIORS WITHOUT CAUSE (WWC) WORKS TO ACHIEVE SUSTAINABLE
-            DEVELOPMENT GOALS
+          <h1 className="text-white text-center text-3xl uppercase font-bold lg:text-4xl">
+            Needy Binders NGO WORKS TO ACHIEVE SUSTAINABLE DEVELOPMENT
+            GOALS
           </h1>
           <div className="card-container w-full h-fit grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center mt-10 lg:px-40">
             <div className="motive-cards text-center bg-[#F6EBE4] w-full h-[40vh]">
@@ -211,12 +210,12 @@ const Approach = () => {
           </div>
         </div>
         <div className="wwc-buzz w-full h-fit bg-[#3F4359] p-5 lg:p-10">
-          <h1 className="text-5xl font-bold text-white">WWC Buzz</h1>
+          <h1 className="text-5xl font-bold text-white">Needy Binders Buzz</h1>
           <div className="flex flex-col lg:flex-row">
             <div className="buzz-img-container w-[80%] h-[45vh] m-auto mt-10 lg:w-[30%] lg:h-[65vh]">
               <img
                 className="w-full h-full"
-                src="https://static.wixstatic.com/media/933dd2_83fde27a507e4333a5b2f878cf728803~mv2.png/v1/fill/w_460,h_666,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WWC%20Buzz%20-%2055.png"
+                src="/images/ngobuzz.jpeg"
                 alt=""
               />
             </div>
@@ -255,7 +254,11 @@ const Approach = () => {
             <div className="cards flex items-center justify-center gap-5 mt-10">
               <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
                 <div className="card-img w-[100vh] h-[30vh] bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    className="w-full h-full object-cover"
+                    src="https://i.pinimg.com/736x/c3/fe/c6/c3fec6f2222710c9f6656c608fded95e.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-text mt-5">
                   <h1 className="text-2xl font-bold text-[#FFBA01]">
@@ -273,7 +276,34 @@ const Approach = () => {
             <div className="cards flex items-center justify-center gap-5 mt-10">
               <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
                 <div className="w-[100vh] h-[30vh] card-img bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    className="w-full h-full object-cover"
+                    src="/images/hungerimg.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div className="card-text mt-5">
+                  <h1 className="text-2xl font-bold text-[#FFBA01]">
+                    Empowering Communities, Eradicating Hunger
+                  </h1>
+                  <p className="text-lg font-semibold text-white leading-tight mt-5">
+                    Hunger is not just about empty stomachs—it’s about the
+                    potential that’s lost. We believe in a world where everyone
+                    has access to food, and together, we can make this vision a
+                    reality by serving meals and supporting sustainable
+                    solutions to end hunger.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <div className="cards flex items-center justify-center gap-5 mt-10">
+              <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
+                <div className="w-[100vh] h-[30vh] card-img bg-red-50">
+                  <img
+                    className="w-full h-full object-cover"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEc3vgfllDzkpLQVF4W7qovGD4jt6PWeI4bQ&s"
+                    alt=""
+                  />
                 </div>
                 <div className="card-text mt-5">
                   <h1 className="text-2xl font-bold text-[#FFBA01]">
@@ -291,7 +321,11 @@ const Approach = () => {
             <div className="cards flex items-center justify-center gap-5 mt-10">
               <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
                 <div className="card-img w-[100vh] h-[30vh] bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    className="w-full h-full object-cover"
+                    src="https://i.pinimg.com/474x/b8/23/0d/b8230d678ecef713e62d6d4a07fb0082.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-text mt-5">
                   <h1 className="text-2xl font-bold text-[#FFBA01]">
@@ -309,7 +343,11 @@ const Approach = () => {
             <div className="cards flex items-center justify-center gap-5 mt-10">
               <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
                 <div className="card-img w-[100vh] h-[30vh] bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    className="w-full h-full object-cover"
+                    src="https://startupsmagazine.co.uk/sites/default/files/2023-05/pr.png"
+                    alt=""
+                  />
                 </div>
                 <div className="card-text mt-5">
                   <h1 className="text-2xl font-bold text-[#FFBA01]">
@@ -323,7 +361,7 @@ const Approach = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const About = () => {
     <>
       <NavBar />
       <div className="w-full h-fit">
-        <div className="w-full h-[35vh] lg:h-[50vh] flex flex-col justify-center items-center text-white border-b-2 bg-zinc-600">
+        <div className="w-full h-[35vh] lg:h-[50vh] flex flex-col justify-center items-center text-white border-b-2 bg-zinc-600 bg-[url(https://plus.unsplash.com/premium_photo-1682092585257-58d1c813d9b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-[center_top_30%] ">
           <h1 className="text-4xl font-bold underline mt-5 tracking-widest text-[#FFBA01]">
             About Us
           </h1>
@@ -22,7 +22,7 @@ const About = () => {
               WARRIORS WITHOUT CAUSE
             </h1>
             <div className="img-container w-full h-[60vh] lg:w-1/2 lg:ml-20 bg-red-300">
-              <img src="" alt="" />
+              <img className="size-full" src="/images/childimg.jpeg" alt="" />
             </div>
           </div>
           <div className="missionInfo w-full h-fit text-black pt-5 lg:w-1/2">
@@ -108,13 +108,13 @@ const About = () => {
           <h1 className="text-4xl font-bold text-center text-[#FFBA01] uppercase mt-5">
             Meet our BOARD OF TRUST
           </h1>
-          <div className="team-members w-full h-fit grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div className="truste-info w-full h-fit flex flex-col items-start justify-center mt-5">
-              <div className="img-container w-full h-[40vh] bg-red-300">
-                <img className="w-full h-full object-cover" src="" alt="" />
+          <div className="team-members w-full h-fit grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:flex lg:justify-evenly">
+            <div className="truste-info w-[40vh] h-fit flex flex-col items-start justify-center mt-5">
+              <div className="img-container w-full h-[40vh]">
+                <img className="w-full h-full object-cover" src="/images/trustee-1.jpeg" alt="" />
               </div>
               <h1 className="truste-name text-zinc-800 font-medium text-2xl mt-2 text-center">
-                Anusha Attree
+                Sapna
               </h1>
               <h2 className="truste-designation text-[#FFBA01] font-medium text-xl text-center">
                 Founder
@@ -123,12 +123,12 @@ const About = () => {
                 Trustee
               </h2>
             </div>
-            <div className="truste-info w-full h-fit flex flex-col items-start justify-center mt-5">
-              <div className="img-container w-full h-[40vh] bg-red-300">
-                <img className="w-full h-full object-cover" src="" alt="" />
+            <div className="truste-info w-[40vh] h-fit flex flex-col items-start justify-center mt-5">
+              <div className="img-container w-full h-[40vh]">
+                <img className="w-full h-full object-contain" src="/images/trustee-3.jpeg" alt="" />
               </div>
               <h1 className="truste-name text-zinc-800 font-medium text-2xl mt-2 text-center">
-                Anusha Attree
+                Lakshya Tanwar
               </h1>
               <h2 className="truste-designation text-[#FFBA01] font-medium text-xl text-center">
                 Founder
@@ -137,26 +137,12 @@ const About = () => {
                 Trustee
               </h2>
             </div>
-            <div className="truste-info w-full h-fit flex flex-col items-start justify-center mt-5">
-              <div className="img-container w-full h-[40vh] bg-red-300">
-                <img className="w-full h-full object-cover" src="" alt="" />
+            <div className="truste-info w-[40vh] h-fit flex flex-col items-start justify-center mt-5">
+              <div className="img-container w-full h-[40vh]">
+                <img className="w-full h-full object-cover" src="/images/trustee-2.jpeg" alt="" />
               </div>
               <h1 className="truste-name text-zinc-800 font-medium text-2xl mt-2 text-center">
-                Anusha Attree
-              </h1>
-              <h2 className="truste-designation text-[#FFBA01] font-medium text-xl text-center">
-                Founder
-              </h2>
-              <h2 className="truste-designation text-[#FFBA01] font-medium text-xl text-center">
-                Trustee
-              </h2>
-            </div>
-            <div className="truste-info w-full h-fit flex flex-col items-start justify-center mt-5">
-              <div className="img-container w-full h-[40vh] bg-red-300">
-                <img className="w-full h-full object-cover" src="" alt="" />
-              </div>
-              <h1 className="truste-name text-zinc-800 font-medium text-2xl mt-2 text-center">
-                Anusha Attree
+                Aastha thakur
               </h1>
               <h2 className="truste-designation text-[#FFBA01] font-medium text-xl text-center">
                 Founder
@@ -168,7 +154,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="our-motive bg-[#3F4359] w-full h-fit p-5 lg:flex lg:flex-row">
+        {/* <div className="our-motive bg-[#3F4359] w-full h-fit p-5 lg:flex lg:flex-row">
           <div className="motive-cards text-center bg-[#F6EBE4] mt-5 pt-5 pb-10 ">
             <h1 className="text-2xl sm:text-3xl font-semibold text-black">
               EMPATHY
@@ -212,7 +198,7 @@ const About = () => {
               organization.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>

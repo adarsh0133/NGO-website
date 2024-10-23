@@ -9,16 +9,16 @@ const Home = () => {
     <>
       <NavBar />
       <div className="homepage w-full h-fit text-white pt-20">
-        <div className="homepage-content w-full h-full bg-zinc-900 p-10 flex flex-col items-center justify-center">
+        <div className="homepage-content w-full h-full bg-zinc-900 p-10 flex flex-col items-center justify-center backdrop-blur-lg bg-[url(https://plus.unsplash.com/premium_photo-1682092585257-58d1c813d9b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-[center_top_40%]">
           <div className="homepage-content-text lg:pl-40">
             <h1 className="text-4xl font-bold lg:text-8xl uppercase lg:w-1/2">
               {" "}
               <span className="text-2xl mb-4 inline-block lg:text-4xl lg:font-semibold">
                 Welcome to
               </span>{" "}
-              <br /> Warriors Without Cause NGO
+              <br /> Needy Binders Cause NGO
             </h1>
-            <p className="text-lg mt-10 font-semibold lg:w-1/3">
+            <p className="text-lg mt-10 font-semibold lg:w-1/3 text-zinc-100">
               We are a non-profit organization that empowers young people to
               make a difference in their communities.
             </p>
@@ -33,10 +33,14 @@ const Home = () => {
               Learn About Us
             </h1>
             <h1 className="text-4xl font-bold text-[#FFBA01] mt-2 mb-3">
-              WARRIORS WITHOUT CAUSE
+              Needy Binders NGO
             </h1>
             <div className="img-container w-full h-[60vh] lg:w-1/2 lg:ml-20 bg-red-300">
-              <img src="" alt="" />
+              <img
+                className="size-full object-cover"
+                src="/images/homepic.jpeg"
+                alt=""
+              />
             </div>
           </div>
           <div className="missionInfo w-full h-fit text-black pt-5 lg:w-1/2">
@@ -124,7 +128,7 @@ const Home = () => {
             What We Do?
           </h1>
           <h1 className="text-3xl font-bold text-[#3F4359] text-center mt-8 lg:w-2/3 lg:mx-auto lg:text-4xl">
-            We don't need a cause to help those in need while spreading
+            We {"don't"} need a cause to help those in need while spreading
             awareness
           </h1>
 
@@ -132,7 +136,11 @@ const Home = () => {
             <div className="cards flex items-center justify-center gap-5 mt-10">
               <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
                 <div className="card-img w-[100vh] h-[30vh] bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    className="w-full h-full object-cover"
+                    src="https://i.pinimg.com/736x/c3/fe/c6/c3fec6f2222710c9f6656c608fded95e.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-text mt-5">
                   <h1 className="text-2xl font-bold text-[#FFBA01]">
@@ -150,7 +158,30 @@ const Home = () => {
             <div className="cards flex items-center justify-center gap-5 mt-10">
               <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
                 <div className="w-[100vh] h-[30vh] card-img bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    className="w-full h-full object-cover"
+                    src="/images/hungerimg.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div className="card-text mt-5">
+                  <h1 className="text-2xl font-bold text-[#FFBA01]">
+                    Empowering Communities, Eradicating Hunger
+                  </h1>
+                  <p className="text-lg font-semibold text-white leading-tight mt-5">
+                    Hunger is not just about empty stomachs—it’s about the
+                    potential that’s lost. We believe in a world where everyone
+                    has access to food, and together, we can make this vision a
+                    reality by serving meals and supporting sustainable
+                    solutions to end hunger.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* <div className="cards flex items-center justify-center gap-5 mt-10">
+              <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
+                <div className="card-img w-[100vh] h-[30vh] bg-red-50">
+                  <img className="w-full h-full object-cover" src="https://i.pinimg.com/474x/b8/23/0d/b8230d678ecef713e62d6d4a07fb0082.jpg" alt="" />
                 </div>
                 <div className="card-text mt-5">
                   <h1 className="text-2xl font-bold text-[#FFBA01]">
@@ -168,7 +199,7 @@ const Home = () => {
             <div className="cards flex items-center justify-center gap-5 mt-10">
               <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
                 <div className="card-img w-[100vh] h-[30vh] bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
+                  <img className="w-full h-full object-cover" src="https://startupsmagazine.co.uk/sites/default/files/2023-05/pr.png" alt="" />
                 </div>
                 <div className="card-text mt-5">
                   <h1 className="text-2xl font-bold text-[#FFBA01]">
@@ -182,25 +213,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="cards flex items-center justify-center gap-5 mt-10">
-              <div className="card w-full h-fit p-5 flex items-center justify-center gap-3">
-                <div className="card-img w-[100vh] h-[30vh] bg-red-50">
-                  <img className="w-full h-full object-cover" src="" alt="" />
-                </div>
-                <div className="card-text mt-5">
-                  <h1 className="text-2xl font-bold text-[#FFBA01]">
-                    ZERO POVERTY & SKILL DEVELOPMENT
-                  </h1>
-                  <p className="text-lg font-semibold text-white leading-tight mt-5">
-                    We tend to teach poor men and women skills such as knitting,
-                    pottery, and weaving so that they can make their own
-                    products and sell them in the market, allowing them to
-                    become self-sufficient.
-                  </p>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="video-container w-full h-fit p-10">
@@ -217,18 +230,18 @@ const Home = () => {
             alt=""
           />
           <h1 className="text-3xl font-bold text-[#FFBA01]">
-            Let's donate for a cause{" "}
+            {"Let's donate for a cause"}
           </h1>
           <h1 className="text-4xl font-bold text-[#FFBA01] mt-4">
-            ''Your Donation their hope''{" "}
+            {"''Your Donation their hope'' "}
           </h1>
-          <h2 className="text-lg font-semibold text-white mt-5 text-start">
-            Rs. 50 = Nourish a soul with a meal <br /> Rs. 60 = Support a
-            woman's menstrual hygiene <br /> Rs. 200 = Equip a student with
-            education kit
-            <br /> Rs. 1000 = Sustain a family for a month
-            <br /> Rs. 1000 = Sustain a family for a month
-          </h2>
+          <div className="size-[50vh] max-[600px]:size-[30vh] bg-white">
+            <img
+              className="size-full object-cover"
+              src="/images/qrcode.jpeg"
+              alt=""
+            />
+          </div>
           <button className="bg-[#FFBA01] text-black px-5 py-2 rounded-md font-bold text-lg mt-5">
             Donate Now
           </button>

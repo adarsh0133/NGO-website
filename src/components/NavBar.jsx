@@ -1,4 +1,4 @@
-import { RiMenu3Fill, RiCloseLine, RiArrowLeftSLine  } from "@remixicon/react";
+import { RiMenu3Fill, RiCloseLine } from "@remixicon/react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const NavBar = () => {
             onClick={menuClickHandler}
           />
           <div className="menu-content w-full h-full flex flex-col justify-center items-center gap-5 text-3xl">
-            <h1> 
+            <h1>
               <Link to="/">Home</Link>
             </h1>
             <h1>
@@ -29,12 +29,15 @@ const NavBar = () => {
           </div>
         </div>
       )}
-      <div className="logo w-16 h-16 rounded-full bg-white flex justify-center items-center">LOGO</div>
-      <div className="menu lg:hidden text-white">
-        <RiMenu3Fill
-          onClick={menuClickHandler}
-          size={30}
+      <div className="logo size-16 rounded-full flex justify-center items-center overflow-hidden">
+        <img
+          className="size-16 object-cover"
+          src="/images/nerdyBinders.jpeg"
+          alt=""
         />
+      </div>
+      <div className="menu lg:hidden text-white">
+        <RiMenu3Fill onClick={menuClickHandler} size={30} />
       </div>
       <div className="links hidden lg:flex lg:gap-8 lg:text-xl lg:font-bold text-white lg:mr-20">
         <h1>
