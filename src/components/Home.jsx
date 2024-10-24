@@ -214,10 +214,10 @@ const Home = () => {
           </div>
 
           <div className="video-container w-full h-fit p-10">
-            <video
-              src=""
-              className="w-full h-[30vh] lg:w-2/3 lg:h-[60vh] lg:mx-auto object-cover bg-red-400"
-            ></video>
+            <img
+              src="/images/quote.jpeg"
+              className="w-full h-[30vh] lg:w-2/3 lg:h-[60vh] lg:mx-auto object-cover"
+            ></img>
           </div>
         </div>
 

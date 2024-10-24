@@ -7,6 +7,11 @@ const NavBar = () => {
   const menuClickHandler = () => {
     setShowMenu(!showMenu);
   };
+
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <div className="fixed w-full h-20 flex justify-between items-center pl-4 pr-4 bg-[#FFBA01]">
       {showMenu && (
@@ -18,13 +23,13 @@ const NavBar = () => {
           />
           <div className="menu-content w-full h-full flex flex-col justify-center items-center gap-5 text-3xl">
             <h1>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={closeMenu}>Home</Link>
             </h1>
             <h1>
-              <Link to="/About">About</Link>
+              <Link to="/about" onClick={closeMenu}>About</Link>
             </h1>
             <h1>
-              <Link to="/approach">Our Approach</Link>
+              <Link to="/approach" onClick={closeMenu}>Our Approach</Link>
             </h1>
           </div>
         </div>
@@ -41,13 +46,13 @@ const NavBar = () => {
       </div>
       <div className="links hidden lg:flex lg:gap-8 lg:text-xl lg:font-bold text-white lg:mr-20">
         <h1>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={closeMenu}>Home</Link>
         </h1>
         <h1>
-          <Link to="/About">About</Link>
+          <Link to="/about" onClick={closeMenu}>About</Link>
         </h1>
         <h1>
-          <Link to="/approach">Our Approach</Link>
+          <Link to="/approach" onClick={closeMenu}>Our Approach</Link>
         </h1>
       </div>
     </div>
