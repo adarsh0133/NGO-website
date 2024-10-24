@@ -216,7 +216,7 @@ const Home = () => {
           <div className="video-container w-full h-fit p-10">
             <img
               src="/images/quote.jpeg"
-              className="w-full h-[30vh] lg:w-2/3 lg:h-[60vh] lg:mx-auto object-cover"
+              className="w-full h-[30vh] lg:w-2/3 lg:h-[60vh] lg:mx-auto object-contain"
             ></img>
           </div>
         </div>

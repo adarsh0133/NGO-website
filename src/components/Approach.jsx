@@ -206,7 +206,7 @@ const Approach = () => {
             </div>
           </div>
         </div>
-        <div className="wwc-buzz w-full h-fit bg-[#3F4359] p-5 lg:p-10">
+        <div className="NeedyBinders-buzz w-full h-fit bg-[#3F4359] p-5 lg:p-10">
           <h1 className="text-5xl font-bold text-white">Needy Binders Buzz</h1>
           <div className="flex flex-col lg:flex-row">
             <div className="buzz-img-container w-[80%] h-[45vh] m-auto mt-10 lg:w-[30%] lg:h-[65vh]">
@@ -216,21 +216,21 @@ const Approach = () => {
                 alt=""
               />
             </div>
-            <p className="text-white text-2xl font-light mt-10 lg:w-1/2">
-              Dear Readers, As we launch "The WWC Buzz," the founders of
-              Warriorswithoutcause are overcome with gratitude and delight. We
+            <p className="text-white text-xl font-light mt-10 lg:w-1/2">
+              Dear Readers, As we launch "The Needy Binders Buzz," the founders of
+              Needy Binders are overcome with gratitude and delight. We
               are finally here with our very own newsletter issue after a
               protracted journey of commitment, adversity, and passion. With the
               express intention of empowering people with love, instilling the
               SEWA practice, and helping the community, we founded this NGO. The
-              WWC Buzz is more than just another newsletter; it's a way for us
+              Needy Binders Buzz is more than just another newsletter; it's a way for us
               to keep our goal to give you meaningful explanations of
               innovation, teamwork, and societal sustainability. We intend to
               build a network of like-minded people who support our vision of a
               better world through this newsletter. We are eager to share with
               you our upcoming projects and initiatives, which include
               partnerships with other NGOs and sustainable development
-              initiatives. We at WWC, believe that by working together, we can
+              initiatives. We at Needy Binders, believe that by working together, we can
               have a significant impact on society and improve the quality of
               life for everyone which is why we work on sustainable development
               goals.
